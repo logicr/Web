@@ -196,7 +196,29 @@ class BinaryTree{
             Node t = (Node)iterator.next();
             System.out.print(t.getData() +",");
         }
+//        iter
+//        itar
     }
+    public  boolean isCompleteBinTree(Node root){
+        Queue<Node> queue = new LinkedList<>();
+        queue.offer(root);
+        while (!queue.isEmpty()) {
+            Node tmp = queue.poll();
+            if (null == tmp) {
+                break;
+            }
+            queue.offer(tmp.getLeftChild());
+            queue.offer(tmp.getRightChild());
+        }
+        while (!queue.isEmpty()){
+            Node tmp = queue.poll();
+            if (null != tmp){
+                return false;
+            }
+        }
+        return true;
+    }
+
 }
 public class BinTree {
     public static void main(String[] args) {
@@ -230,6 +252,8 @@ public class BinTree {
         System.out.println(binaryTree.findParentNode(binaryTree.root,5).getData());
 //         层序遍历
         binaryTree.levelOrder(binaryTree.root);
+        System.out.println();
+//        是不是完全二叉树
+        System.out.println(binaryTree.isCompleteBinTree(binaryTree.root));
     }
-
 }

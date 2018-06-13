@@ -173,6 +173,7 @@ class BinaryTree{
         }
         return null;
     }
+//    层序遍历
     public void levelOrder(Node root){
         Node tmp = root;
         Queue <Node> queue = new LinkedList<>();
@@ -199,6 +200,7 @@ class BinaryTree{
 //        iter
 //        itar
     }
+//    是不是完全二叉树
     public  boolean isCompleteBinTree(Node root){
         Queue<Node> queue = new LinkedList<>();
         queue.offer(root);

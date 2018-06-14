@@ -221,6 +221,28 @@ class BinaryTree{
         }
         return true;
     }
+//    前序遍历非递归
+    public  void norPreOrder (Node root){
+        Node tmp = null;
+        Stack<Node> stack = new Stack<>();
+        LinkedList <Node> list = new LinkedList<>();
+        if (null == root){
+            return;
+        }
+        stack.push(root);
+        while (stack.isEmpty()){
+            tmp = stack.peek();
+            list.add(tmp);
+            while (null != tmp.g
+
+
+            etLeftChild()){
+                stack.push(tmp.getLeftChild());
+                list.add(tmp.getLeftChild());
+            }
+            while ()
+        }
+    }
 
 }
 public class BinTree {

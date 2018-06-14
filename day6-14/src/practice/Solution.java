@@ -3,9 +3,9 @@ package practice;
 import java.util.Stack;
 
 
-class Test{
-
-}
+/**
+ * 辅助栈实现最小栈
+ */
 public class Solution {
        Stack<Integer> stack = new Stack<>();
        Stack<Integer> tmp = new Stack<>();

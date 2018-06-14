@@ -12,7 +12,9 @@ class ListNode {
     }
 }
 
-
+/**
+ * 分段排序链表，且相对位置不变
+ */
 public class Test {
     public static void main(String[] args) {
         ListNode head = new ListNode(1);

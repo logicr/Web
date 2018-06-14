@@ -7,6 +7,7 @@ import java.sql.SQLOutput;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.Queue;
+import java.util.Stack;
 
 /**
  * author:Jan
@@ -257,5 +258,9 @@ public class BinTree {
         System.out.println();
 //        是不是完全二叉树
         System.out.println(binaryTree.isCompleteBinTree(binaryTree.root));
+
+
+
+
     }
 }

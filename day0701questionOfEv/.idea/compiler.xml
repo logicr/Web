@@ -6,13 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="helloDay06-25" />
-        <module name="helloStringDay06-25" />
-        <module name="mabatis-day071" />
+        <module name="day0701questionOfEv" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="mybatis-bj-day0701" target="1.5" />
-    </bytecodeTargetLevel>
   </component>
 </project>

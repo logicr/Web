@@ -21,6 +21,7 @@ public class Solution {
         for (int i = 0; i < customer.length(); i++) {
            if(shopNum[customer.charAt(i)] !=0){
                cusNum--;
+               shopNum[customer.charAt(i)]--;
            }
             if(0 == cusNum){
                 System.out.print("Yes "+(shNum-cusNum));

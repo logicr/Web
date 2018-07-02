@@ -2,8 +2,38 @@
 <!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
+    <properties>
+        <!--一般不在这里配，知道即可-->
+        <!--优先执行，比datasource里的等级高，会覆盖datasource里的pro-->
+    <!--<property name="username" value="root"/>    -->
+    </properties>
+
+    <!--很重要的一项-->
+    <!--<settings>-->
+        <!--<setting name="" value=""/>-->
+    <!--</settings>-->
+
+    <!--定义一类型别名 一般不用降低代码的可读性-->
+    <typeAliases>
+        <!--单个改-->
+        <!--<typeAlias alias="" type="club.logicr.mybatis.entity"/>-->
+        <!--放个包，用这个自己去找，然后改掉-->
+        <package name="" />
+    </typeAliases>
+
+
+
+    <!--默认类型处理-->
+    <typeHandlers>
+        <typeHandler handler="club.logicr.mybatis.plugin"/>
+        <package name=""/>
+    </typeHandlers>
+
+
+    <!-- environments  和 mpper 重要-->
     <environments default="dev">
         <environment id="dev">
+            <!--事务管理-->
             <transactionManager type="JDBC">
             </transactionManager>
             <dataSource type="POOLED">

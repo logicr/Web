@@ -24,6 +24,7 @@
     </properties>
 
 
+    <!--添加依赖-->
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
@@ -48,6 +49,18 @@
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
             <version>5.1.46</version>
+        </dependency>
+
+        <!--以下两个用于输出日志-->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>1.7.25</version>
+        </dependency>
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <version>1.2.2</version>
         </dependency>
     </dependencies>
 

@@ -2,6 +2,10 @@ package club.logicr.mybatis.entity;
 
 import java.util.Date;
 
+/**
+ * @author Jan
+ * 这个类的作用是将数据库中的段改成java中的段
+ */
 public class MemoGroup {
     private Integer id;
     private String name;

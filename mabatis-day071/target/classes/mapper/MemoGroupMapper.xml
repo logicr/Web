@@ -9,11 +9,14 @@
         <result property="modifyTime" column="modify_time" jdbcType="TIMESTAMP"/>
     </resultMap>
 
-
+    <!--mysql语句-->
     <insert id="insertMemoGroup">
         insert into  memo_group (name, created_time)
                 values (#{name},#{createdTime})
     </insert>
+    <select id="selectMemoGroup" resultType="club.logicr.mybatis.entity.MemoGroup">
+        select * from memo_group;
+    </select>
 
 
 </mapper>

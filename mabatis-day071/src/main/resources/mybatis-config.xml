@@ -2,62 +2,50 @@
 <!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
-    <properties>
-        <!--一般不在这里配，知道即可-->
-        <!--优先执行，比datasource里的等级高，会覆盖datasource里的pro-->
-    <!--<property name="username" value="root"/>    -->
+    <!--属性-->
+    <properties resource="config/database.properties">
+        <!--<property name="username" value="${username}"/>-->
+        <!--<property name="password" value="${password}"/>-->
     </properties>
 
-    <!--很重要的一项-->
-    <!--<settings>-->
-        <!--<setting name="" value=""/>-->
-    <!--</settings>-->
+    <settings>
+        <setting name="logImpl" value="SLF4J"/>
+    </settings>
 
-    <!--定义一类型别名 一般不用降低代码的可读性-->
+    <!--起别名-->
     <typeAliases>
-        <!--单个改-->
-        <!--<typeAlias alias="" type="club.logicr.mybatis.entity"/>-->
-        <!--放个包，用这个自己去找，然后改掉-->
-        <package name="" />
+        <typeAlias alias="MemoGroup" type="club.logicr.mybatis.entity.MemoGroup"/>
     </typeAliases>
 
-
-
-    <!--默认类型处理-->
-    <typeHandlers>
-        <typeHandler handler="club.logicr.mybatis.plugin"/>
-        <package name=""/>
-    </typeHandlers>
-
-
-    <!-- environments  和 mpper 重要-->
-    <environments default="dev">
-        <environment id="dev">
-            <!--事务管理-->
+    <!--环境配置-->
+    <environments default="mydev">
+        <environment id="mydev">
             <transactionManager type="JDBC">
+                <!--...什么意思-->
+                <property name="..." value="..."/>
             </transactionManager>
             <dataSource type="POOLED">
-                <property name="driver" value="com.mysql.jdbc.Driver"/>
-                <property name="url" value="jdbc:mysql://localhost:3306/memo"/>
-                <property name="username" value="root"/>
-                <property name="password" value="147258"/>
+                <!--<property name="driver" value="com.mysql.jdbc.Driver"/>-->
+                <!--<property name="url" value="jdbc:mysql://localhost:3306/memo"/>-->
+                <property name="driver" value="${dri}"/>
+                <property name="url" value="${url}"/>
+                <property name="username" value="${username}"/>
+                <property name="password" value="${password}"/>
+
+
             </dataSource>
-        </environment>
-        <environment id="prod">
-            <transactionManager type="JDBC">
-            </transactionManager>
-            <dataSource type="POOLED">
-                <property name="driver" value="com.mysql.jdbc.Driver"/>
-                <property name="url" value="jdbc:mysql://localhost:3306/memo"/>
-                <property name="username" value="root"/>
-                <property name="password" value="147258"/>
-            </dataSource>
+
+            <!--<dataSource type="POOLED">-->
+                <!--<property name="driver" value="com.mysql.jdbc.Driver"/>-->
+                <!--<property name="url" value="jdbc:mysql://localhost:3306/memo"/>-->
+                <!--<property name="username" value="root"/>-->
+                <!--<property name="password" value="147258"/>-->
+            <!--</dataSource>-->
         </environment>
     </environments>
 
-
     <mappers>
+        <!--mapper路径不能用点-->
         <mapper resource="mapper/MemoGroupMapper.xml"/>
     </mappers>
-
 </configuration>

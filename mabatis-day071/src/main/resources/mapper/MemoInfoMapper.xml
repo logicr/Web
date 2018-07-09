@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" ?><!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="club.logicr.mybatis.mapper.MemoInfoMapper">
+
+    <!--开启系统缓存-->
+    <!--<cache eviction="FIFO" flushInterval="1" size="2" readOnly="true"/>-->
+
+    <!--开启缓存自定义缓存-->
+    <!--<cache type="club.logicr.mybatis.plugin.MyCache"/>-->
+
+
+    <!--开启第三方缓存1-->
+    <cache type="org.mybatis.caches.ehcache.EhcacheCache">
+        <property name="timeToIdleSeconds" value="3600"/><!--1 hour-->
+        <property name="timeToLiveSeconds" value="3600"/><!--1 hour-->
+        <property name="maxEntriesLocalHeap" value="1000"/>
+        <property name="maxEntriesLocalDisk" value="10000000"/>
+        <property name="memoryStoreEvictionPolicy" value="LRU"/>
+    </cache>
+
+
+
+
+    <insert id="insertMemoInfo">
+        insert into memo_info (group_id, title, content, is_protected, background, is_remind, remind_time, created_time)
+         values (
+                #{groupId}, #{title}, #{content},
+                #{privacy}, #{backGround}, #{remind}, #{remindTime},
+                #{createdTime}
+            )
+    </insert>
+
+    <sql id="basic_alias_column">
+        id as 'id',
+        group_id as 'groupId',
+        title as 'title',
+        content as 'content',
+        is_protected as 'privacy',
+        is_remind as 'remind',
+        remind_time as 'remindTime',
+        background as 'backGround',
+        created_time as 'createTime',
+        modify_time as 'modifyTime'
+    </sql>
+
+    <!--查询全部-->
+    <select id="queryMemoInfoAll" resultType="club.logicr.mybatis.entity.MemoInfo">
+        select <include refid="basic_alias_column"/>from  memo_info;
+    </select>
+
+    <!--查询title和privacy-->
+    <select id="queryTitleAndPrivacy" resultType="club.logicr.mybatis.entity.MemoInfo">
+        select <include refid="basic_alias_column"/>from memo_info
+        <where>
+            <if test="privacy!=null">
+                and is_protected = #{privacy}
+            </if>
+--             is_protected = '1'
+            <if test="title!=null">
+                and title like #{title}
+            </if>
+        </where>
+    </select>
+
+    <!--查询起止时间-->
+    <select id="queryCreateTime" resultType="club.logicr.mybatis.entity.MemoInfo">
+        select <include refid="basic_alias_column"/> from memo_info
+      <where>
+          <if test="startTime!=null">
+               created_time &gt;= #{startTime}
+          </if>
+          <if test="endTime!=null">
+              and created_time &lt;=#{endTime}
+          </if>
+
+      </where>
+    </select>
+</mapper>

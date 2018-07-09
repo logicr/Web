@@ -1,8 +1,10 @@
 package jdbcdemo;
 
 import java.sql.*;
-import java.util.Collections;
 
+/**
+ * @author  Jan
+ */
 public class JdbcDemo {
     public static void jdbcStep(){
         Connection connection = null;
@@ -23,11 +25,9 @@ public class JdbcDemo {
                 String dname = resultSet.getString("dname");
                 System.out.println(deptno+","+dname);
             }
-        } catch (ClassNotFoundException e) {
+        } catch (ClassNotFoundException | SQLException e) {
             e.printStackTrace();
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }finally {
+        } finally {
             if (null != resultSet){
                 try {
                     resultSet.close();

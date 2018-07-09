@@ -8,8 +8,14 @@
         <!--<property name="password" value="${password}"/>-->
     </properties>
 
+    <!--<settings>-->
+        <!--<setting name="logImpl" value="SLF4J"/>-->
+    <!--</settings>-->
     <settings>
-        <setting name="logImpl" value="SLF4J"/>
+        <!-- mapper映射的二级缓存默认启用，需要mapper文件设置 -->
+        <setting name="cacheEnabled" value="true"/>
+        <!-- session级别的一级缓存默认开启 -->
+        <setting name="localCacheScope" value="SESSION"/>
     </settings>
 
     <!--起别名-->
@@ -47,5 +53,6 @@
     <mappers>
         <!--mapper路径不能用点-->
         <mapper resource="mapper/MemoGroupMapper.xml"/>
+        <mapper resource="mapper/MemoInfoMapper.xml"/>
     </mappers>
 </configuration>

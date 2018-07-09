@@ -1,3 +1,5 @@
+package club.logicr.quickSort;
+
 /**
  * @author Jan
  * 快速排序，找基准数，将小于和大于他的分别放到他两边，再将两边重复此步骤

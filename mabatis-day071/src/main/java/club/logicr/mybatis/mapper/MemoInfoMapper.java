@@ -33,4 +33,12 @@ public interface MemoInfoMapper  {
             @Param("startTime")LocalDateTime startTime,
             @Param("endTime")LocalDateTime endTime
             );
+    List<MemoInfo> queryTitleOrContent(
+            @Param("title") String title,
+            @Param("content") String content
+    );
+
+    List<MemoInfo> queryIdInList(List list
+//            @Param("List") List<Integer> list
+    );
 }

@@ -69,7 +69,7 @@
       <file leaf-file-name="mybatis-config.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
+            <state relative-caret-position="-44">
               <caret line="12" column="19" selection-start-line="10" selection-start-column="8" selection-end-line="12" selection-end-column="19" />
             </state>
           </provider>
@@ -78,8 +78,8 @@
       <file leaf-file-name="MemoInfoMapper.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/MemoInfoMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="70" selection-start-line="70" selection-end-line="70" />
+            <state relative-caret-position="11">
+              <caret line="91" column="19" selection-start-line="91" selection-start-column="19" selection-end-line="91" selection-end-column="19" />
               <folding>
                 <element signature="e#2440#2444#0" expanded="true" />
                 <element signature="e#2596#2600#0" expanded="true" />
@@ -88,11 +88,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MemoInfoTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MemoInfoTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/culb/logicr/mybatisTest/MemoInfoTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="99" column="63" lean-forward="true" selection-start-line="99" selection-start-column="63" selection-end-line="99" selection-end-column="63" />
+            <state relative-caret-position="82">
+              <caret line="132" column="27" selection-start-line="132" selection-start-column="27" selection-end-line="132" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -109,11 +109,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MemoInfoMapper.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MemoInfoMapper.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/club/logicr/mybatis/mapper/MemoInfoMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="82">
-              <caret line="33" column="42" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
+            <state relative-caret-position="946">
+              <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -174,8 +174,8 @@
         <option value="$PROJECT_DIR$/src/main/java/club/logicr/mybatis/plugin/MyCache.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/club/logicr/mybatis/entity/MemoInfo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/club/logicr/mybatis/mapper/MemoInfoMapper.java" />
         <option value="$PROJECT_DIR$/src/test/java/culb/logicr/mybatisTest/MemoInfoTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/club/logicr/mybatis/mapper/MemoInfoMapper.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/MemoInfoMapper.xml" />
       </list>
     </option>
@@ -234,10 +234,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="876" />
-    <option name="y" value="46" />
-    <option name="width" value="980" />
-    <option name="height" value="1040" />
+    <option name="x" value="92" />
+    <option name="y" value="110" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -323,7 +323,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="Memoinfo&#9;FILE&#9;file://G:/IDEAcode/mabatis-day071/src/main/resources/mapper/MemoInfoMapper.xml" />
+    <property name="SearchEverywhereHistoryKey" value="Memo&#9;FILE&#9;file://G:/IDEAcode/mabatis-day071/src/main/java/club/logicr/mybatis/mapper/MemoInfoMapper.java&#10;Memoinfo&#9;FILE&#9;file://G:/IDEAcode/mabatis-day071/src/main/resources/mapper/MemoInfoMapper.xml" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
@@ -352,32 +352,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MemoInfoTest.queryCreateTime">
+  <component name="RunManager" selected="JUnit.MemoInfoTest.queryIdInList">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="MemoInfoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mabatis-day071" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="culb.logicr.mybatisTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="culb.logicr.mybatisTest" />
-      <option name="MAIN_CLASS_NAME" value="culb.logicr.mybatisTest.MemoInfoTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
     <configuration name="MemoInfoTest.queryCreateTime" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mabatis-day071" />
@@ -392,6 +369,29 @@
       <option name="PACKAGE_NAME" value="culb.logicr.mybatisTest" />
       <option name="MAIN_CLASS_NAME" value="culb.logicr.mybatisTest.MemoInfoTest" />
       <option name="METHOD_NAME" value="queryCreateTime" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="MemoInfoTest.queryIdInList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mabatis-day071" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="culb.logicr.mybatisTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="culb.logicr.mybatisTest" />
+      <option name="MAIN_CLASS_NAME" value="culb.logicr.mybatisTest.MemoInfoTest" />
+      <option name="METHOD_NAME" value="queryIdInList" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -425,7 +425,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="MemoInfoTest.test_insertMemoIfo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MemoInfoTest.queryTitleOrContent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mabatis-day071" />
       <extension name="coverage">
         <pattern>
@@ -437,7 +437,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="culb.logicr.mybatisTest" />
       <option name="MAIN_CLASS_NAME" value="culb.logicr.mybatisTest.MemoInfoTest" />
-      <option name="METHOD_NAME" value="test_insertMemoIfo" />
+      <option name="METHOD_NAME" value="queryTitleOrContent" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -510,19 +510,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.MemoInfoTest.test_insertMemoIfo" />
       <item itemvalue="JUnit.MemoInfoTest.test_selectMemoinfoAll" />
-      <item itemvalue="JUnit.MemoInfoTest" />
       <item itemvalue="JUnit.MemoInfoTest.queryTitleAndPrivacy" />
       <item itemvalue="JUnit.MemoInfoTest.queryCreateTime" />
+      <item itemvalue="JUnit.MemoInfoTest.queryTitleOrContent" />
+      <item itemvalue="JUnit.MemoInfoTest.queryIdInList" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MemoInfoTest.queryIdInList" />
+        <item itemvalue="JUnit.MemoInfoTest.queryTitleOrContent" />
         <item itemvalue="JUnit.MemoInfoTest.queryCreateTime" />
         <item itemvalue="JUnit.MemoInfoTest.queryTitleAndPrivacy" />
         <item itemvalue="JUnit.MemoInfoTest.test_selectMemoinfoAll" />
-        <item itemvalue="JUnit.MemoInfoTest" />
-        <item itemvalue="JUnit.MemoInfoTest.test_insertMemoIfo" />
       </list>
     </recent_temporary>
   </component>
@@ -539,44 +539,44 @@
       <workItem from="1530412354955" duration="4719000" />
       <workItem from="1530845647802" duration="23000" />
       <workItem from="1530881777048" duration="12117000" />
-      <workItem from="1531031765922" duration="8880000" />
+      <workItem from="1531031765922" duration="14346000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MemoInfoTest_queryTitleAndPrivacy - 2018.07.08 at 17h 09m 54s.xml">
-      <configuration name="MemoInfoTest.queryTitleAndPrivacy" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MemoInfoTest_queryTitleAndPrivacy - 2018.07.08 at 17h 15m 02s.xml">
-      <configuration name="MemoInfoTest.queryTitleAndPrivacy" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MemoInfoTest_queryTitleAndPrivacy - 2018.07.08 at 17h 15m 24s.xml">
-      <configuration name="MemoInfoTest.queryTitleAndPrivacy" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MemoInfoTest_queryCreateTime - 2018.07.08 at 17h 52m 08s.xml">
-      <configuration name="MemoInfoTest.queryCreateTime" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MemoInfoTest_queryCreateTime - 2018.07.08 at 17h 54m 00s.xml">
-      <configuration name="MemoInfoTest.queryCreateTime" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MemoInfoTest_queryCreateTime - 2018.07.08 at 18h 11m 44s.xml">
-      <configuration name="MemoInfoTest.queryCreateTime" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MemoInfoTest_queryCreateTime - 2018.07.08 at 18h 12m 43s.xml">
-      <configuration name="MemoInfoTest.queryCreateTime" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MemoInfoTest_queryCreateTime - 2018.07.08 at 18h 13m 59s.xml">
-      <configuration name="MemoInfoTest.queryCreateTime" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MemoInfoTest_queryCreateTime - 2018.07.08 at 18h 16m 02s.xml">
-      <configuration name="MemoInfoTest.queryCreateTime" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MemoInfoTest_queryCreateTime - 2018.07.08 at 18h 16m 24s.xml">
       <configuration name="MemoInfoTest.queryCreateTime" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MemoInfoTest_queryTitleOrContent - 2018.07.09 at 17h 37m 56s.xml">
+      <configuration name="MemoInfoTest.queryTitleOrContent" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MemoInfoTest_queryTitleOrContent - 2018.07.09 at 17h 38m 41s.xml">
+      <configuration name="MemoInfoTest.queryTitleOrContent" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MemoInfoTest_queryTitleOrContent - 2018.07.09 at 17h 40m 20s.xml">
+      <configuration name="MemoInfoTest.queryTitleOrContent" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MemoInfoTest_queryTitleOrContent - 2018.07.09 at 17h 41m 20s.xml">
+      <configuration name="MemoInfoTest.queryTitleOrContent" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MemoInfoTest_queryTitleOrContent - 2018.07.09 at 17h 42m 07s.xml">
+      <configuration name="MemoInfoTest.queryTitleOrContent" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MemoInfoTest_queryTitleOrContent - 2018.07.09 at 17h 42m 38s.xml">
+      <configuration name="MemoInfoTest.queryTitleOrContent" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MemoInfoTest_queryTitleOrContent - 2018.07.09 at 17h 43m 49s.xml">
+      <configuration name="MemoInfoTest.queryTitleOrContent" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MemoInfoTest_queryIdInList - 2018.07.09 at 18h 04m 46s.xml">
+      <configuration name="MemoInfoTest.queryIdInList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MemoInfoTest_queryIdInList - 2018.07.09 at 18h 08m 23s.xml">
+      <configuration name="MemoInfoTest.queryIdInList" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25739000" />
+    <option name="totallyTimeSpent" value="31205000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -592,12 +592,12 @@
       <window_info anchor="right" id="Maven Projects" order="7" weight="0.4175603" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5628655" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.55263156" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Database Console" order="11" weight="0.32456142" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4923077" visible="true" weight="0.1621984" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4923077" weight="0.33333334" />
       <window_info anchor="right" id="Database" order="6" weight="0.12868632" />
       <window_info id="Structure" order="1" sideWeight="0.50769234" side_tool="true" weight="0.6969697" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24896266" />
@@ -612,6 +612,37 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32890856" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info id="Designer" order="3" />
+      <window_info anchor="bottom" id="Database Console" order="11" weight="0.32456142" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.5575221" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24896266" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32890856" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4923077" weight="0.33333334" />
+      <window_info id="Structure" order="1" sideWeight="0.50769234" side_tool="true" weight="0.6969697" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" id="Database" order="6" weight="0.12868632" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3230994" />
+      <window_info anchor="right" id="Maven Projects" order="7" weight="0.4175603" />
+      <window_info id="Favorites" order="5" sideWeight="0.5010846" side_tool="true" weight="0.33914208" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -912,13 +943,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="12" column="19" selection-start-line="10" selection-start-column="8" selection-end-line="12" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/club/logicr/mybatis/entity/MemoInfo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1364">
@@ -936,14 +960,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/MemoInfoMapper.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="70" selection-start-line="70" selection-end-line="70" />
-          <folding>
-            <element signature="e#2440#2444#0" expanded="true" />
-            <element signature="e#2596#2600#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-44">
+          <caret line="12" column="19" selection-start-line="10" selection-start-column="8" selection-end-line="12" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -954,20 +974,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/club/logicr/mybatis/mapper/MemoInfoMapper.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/culb/logicr/mybatisTest/MemoInfoTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="82">
-          <caret line="33" column="42" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
+          <caret line="132" column="27" selection-start-line="132" selection-start-column="27" selection-end-line="132" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/culb/logicr/mybatisTest/MemoInfoTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/MemoInfoMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="99" column="63" lean-forward="true" selection-start-line="99" selection-start-column="63" selection-end-line="99" selection-end-column="63" />
+        <state relative-caret-position="11">
+          <caret line="91" column="19" selection-start-line="91" selection-start-column="19" selection-end-line="91" selection-end-column="19" />
+          <folding>
+            <element signature="e#2440#2444#0" expanded="true" />
+            <element signature="e#2596#2600#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/club/logicr/mybatis/mapper/MemoInfoMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="946">
+          <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -12,6 +12,7 @@ import org.slf4j.LoggerFactory;
 
 import java.io.IOException;
 import java.time.LocalDateTime;
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
@@ -103,6 +104,32 @@ Configuration的实例构建出 SqlSessionFactory 的实例。 */
                 LocalDateTime.of(2018,8,8,01,01,01,01)
         );
         logger.info("current result{}",list);
+        sqlSession.close();
     }
 
+    @Test
+    public void queryTitleOrContent(){
+        SqlSession sqlSession = sqlSessionFactory.openSession(true);
+        MemoInfoMapper memoInfoMapper = sqlSession.getMapper(MemoInfoMapper.class);
+        List<MemoInfo> list = memoInfoMapper.queryTitleOrContent(
+                "Mysql",
+                "Java Best"
+        );
+        logger.info("current title or content is {}",list);
+        sqlSession.close();
+    }
+
+    @Test
+    public void queryIdInList(){
+        SqlSession sqlSession = sqlSessionFactory.openSession(true);
+        MemoInfoMapper memoInfoMapper = sqlSession.getMapper(MemoInfoMapper.class);
+        List<Integer> info = new ArrayList<>();
+        info.add(2);
+        info.add(3);
+        List<MemoInfo> list = memoInfoMapper.queryIdInList(
+                info
+        );
+        logger.info("In id {}",list);
+        sqlSession.close();
+    }
 }

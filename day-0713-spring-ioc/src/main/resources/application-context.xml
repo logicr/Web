@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:contex="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd   http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+
+    <bean id="exampleBean" class="club.logicr.springcore.ExampleBean">
+
+        <constructor-arg name="id" value="1"/>
+    </bean>
+    <bean id="clientService" class="club.logicr.springcore.ClientService" factory-method="createInstance"/>
+    <bean id="defaultServiceLocator" class="club.logicr.springcore.DefaultServiceLocator" factory-bean="clientService"/>
+</beans>

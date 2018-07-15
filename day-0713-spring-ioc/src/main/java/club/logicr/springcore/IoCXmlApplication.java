@@ -18,5 +18,6 @@ public class IoCXmlApplication {
 //        System.out.println(clientService);
         DefaultServiceLocator defaultServiceLocator = (DefaultServiceLocator) context.getBean("defaultServiceLocator");
         System.out.println(defaultServiceLocator);
+
     }
 }

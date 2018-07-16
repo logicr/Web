@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c244c3e2-ab62-4f63-9bef-9e8472494dd5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-0709-spring/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day-0709-spring/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-0709-spring/target/classes/club/logicr/spring/xml/XmlApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../day-0709-spring/target/classes/club/logicr/spring/xml/XmlApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-0709-spring/target/classes/club/logicr/spring/xml/XmlShapeCompute.class" beforeDir="false" afterPath="$PROJECT_DIR$/../day-0709-spring/target/classes/club/logicr/spring/xml/XmlShapeCompute.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-0709-spring/target/classes/spring-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day-0709-spring/target/classes/spring-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day-0713-spring-ioc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/day-0713-spring-ioc.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/club/logicr/springcore/IoCXmlApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/club/logicr/springcore/IoCXmlApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/club/logicr/springcore/IoCXmlApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/club/logicr/springcore/IoCXmlApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-context.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -35,35 +27,26 @@
       <file leaf-file-name="application-context.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/application-context.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+            <state relative-caret-position="291">
+              <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IoCXmlApplication.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/club/logicr/springcore/IoCXmlApplication.java">
+      <file leaf-file-name="SpelInnerApplication.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/club/logicr/springcore/spel/SpelInnerApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="286">
+              <caret line="13" column="83" lean-forward="true" selection-start-line="13" selection-start-column="83" selection-end-line="13" selection-end-column="83" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DefaultServiceLocator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/club/logicr/springcore/DefaultServiceLocator.java">
+      <file leaf-file-name="SpelInnerValue.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/club/logicr/springcore/spel/SpelInnerValue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AnnotationExample.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/club/logicr/springcore/AnnotationExample.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+            <state relative-caret-position="289">
+              <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -71,27 +54,69 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ExampleBean.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/club/logicr/springcore/ExampleBean.java">
+      <file leaf-file-name="SpelInnerBean.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/club/logicr/springcore/spel/SpelInnerBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+            <state relative-caret-position="110">
+              <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
               <folding>
-                <element signature="e#179#180#0" expanded="true" />
-                <element signature="e#207#208#0" expanded="true" />
+                <element signature="e#273#274#0" expanded="true" />
+                <element signature="e#305#306#0" expanded="true" />
+                <element signature="e#355#356#0" expanded="true" />
+                <element signature="e#397#398#0" expanded="true" />
+                <element signature="e#432#433#0" expanded="true" />
+                <element signature="e#463#464#0" expanded="true" />
+                <element signature="e#511#512#0" expanded="true" />
+                <element signature="e#551#552#0" expanded="true" />
+                <element signature="e#589#590#0" expanded="true" />
+                <element signature="e#623#624#0" expanded="true" />
+                <element signature="e#677#678#0" expanded="true" />
+                <element signature="e#723#724#0" expanded="true" />
+                <element signature="e#756#757#0" expanded="true" />
+                <element signature="e#785#786#0" expanded="true" />
+                <element signature="e#829#830#0" expanded="true" />
+                <element signature="e#865#866#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ClientService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/club/logicr/springcore/ClientService.java">
+      <file leaf-file-name="MyDataSource.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/club/logicr/springcore/spel/MyDataSource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+            <state relative-caret-position="-140">
+              <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
               <folding>
-                <element signature="e#281#282#0" expanded="true" />
-                <element signature="e#317#318#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#407#420#0" expanded="true" />
+                <element signature="e#521#534#0" expanded="true" />
+                <element signature="e#636#650#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="database.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/database.properties">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="IoCXmlApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/club/logicr/springcore/IoCXmlApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="12" column="40" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AnnotationExample.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/club/logicr/springcore/AnnotationExample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="355">
+              <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -114,11 +139,20 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/club/logicr/springcore/ClientService.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/application-context.xml" />
         <option value="$PROJECT_DIR$/src/main/java/club/logicr/springcore/ExampleBean.java" />
         <option value="$PROJECT_DIR$/src/main/java/club/logicr/springcore/DefaultServiceLocator.java" />
         <option value="$PROJECT_DIR$/src/main/java/club/logicr/springcore/AnnotationExample.java" />
         <option value="$PROJECT_DIR$/src/main/java/club/logicr/springcore/IoCXmlApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/club/logicr/springcore/SpelTextApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/club/logicr/springcore/spel/spelInnerValue.java" />
+        <option value="$PROJECT_DIR$/src/main/java/club/logicr/springcore/spel/S.java" />
+        <option value="$PROJECT_DIR$/src/main/java/club/logicr/springcore/spel/SpelInnerValue.java" />
+        <option value="$PROJECT_DIR$/src/main/java/club/logicr/springcore/spel/SpelTextApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/club/logicr/springcore/spel/SpelInnerBean.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/database.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/club/logicr/springcore/spel/MyDataSource.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application-context.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/club/logicr/springcore/spel/SpelInnerApplication.java" />
       </list>
     </option>
   </component>
@@ -144,22 +178,81 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="695" />
-    <option name="y" value="30" />
+    <option name="x" value="855" />
+    <option name="y" value="38" />
     <option name="width" value="980" />
-    <option name="height" value="1040" />
+    <option name="height" value="1003" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="day-0713-spring-ioc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day-0713-spring-ioc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="day-0713-spring-ioc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day-0713-spring-ioc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="day-0713-spring-ioc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day-0713-spring-ioc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="day-0713-spring-ioc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day-0713-spring-ioc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="day-0713-spring-ioc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day-0713-spring-ioc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springcore" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="day-0713-spring-ioc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day-0713-spring-ioc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springcore" type="462c0819:PsiDirectoryNode" />
+              <item name="spel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="day-0713-spring-ioc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day-0713-spring-ioc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../beijiao-jdbc" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Facets" />
@@ -179,14 +272,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.IoCXmlApplication">
+  <component name="RunManager" selected="Application.SpelInnerApplication">
     <configuration name="AnnotationExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="club.logicr.springcore.AnnotationExample" />
       <module name="day-0713-spring-ioc" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="club.logicr.springcore.*" />
+          <option name="PATTERN" value="club.logicr.springcore.spel.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -197,7 +290,40 @@
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="club.logicr.springcore.*" />
+          <option name="PATTERN" value="club.logicr.springcore.spel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="SpelInnerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="club.logicr.springcore.spel.SpelInnerApplication" />
+      <module name="day-0713-spring-ioc" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="club.logicr.springcore.spel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="SpelInnerValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="club.logicr.springcore.spel.SpelInnerValue" />
+      <module name="day-0713-spring-ioc" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="club.logicr.springcore.spel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="SpelTextApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="club.logicr.springcore.spel.SpelTextApplication" />
+      <module name="day-0713-spring-ioc" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="club.logicr.springcore.spel.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -246,9 +372,15 @@
     <list>
       <item itemvalue="Application.IoCXmlApplication" />
       <item itemvalue="Application.AnnotationExample" />
+      <item itemvalue="Application.SpelTextApplication" />
+      <item itemvalue="Application.SpelInnerValue" />
+      <item itemvalue="Application.SpelInnerApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SpelInnerApplication" />
+        <item itemvalue="Application.SpelTextApplication" />
+        <item itemvalue="Application.SpelInnerValue" />
         <item itemvalue="Application.IoCXmlApplication" />
         <item itemvalue="Application.AnnotationExample" />
       </list>
@@ -268,12 +400,12 @@
       <workItem from="1531492618434" duration="2775000" />
       <workItem from="1531616503721" duration="1545000" />
       <workItem from="1531619505214" duration="656000" />
-      <workItem from="1531620201337" duration="1179000" />
+      <workItem from="1531620201337" duration="8696000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8272000" />
+    <option name="totallyTimeSpent" value="15789000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
@@ -281,26 +413,26 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32748538" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.3235725" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info id="Image Layers" order="2" />
+      <window_info id="Image Layers" order="1" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32650074" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32650074" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.1802949" />
+      <window_info id="Designer" order="3" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.13069706" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
+      <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -607,9 +739,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/club/logicr/springcore/spel/SpelInnerValue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/club/logicr/springcore/AnnotationExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
+        <state relative-caret-position="355">
           <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -617,10 +759,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application-context.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/club/logicr/springcore/IoCXmlApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+        <state relative-caret-position="132">
+          <caret line="12" column="40" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/club/logicr/springcore/spel/SpelInnerBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+          <folding>
+            <element signature="e#273#274#0" expanded="true" />
+            <element signature="e#305#306#0" expanded="true" />
+            <element signature="e#355#356#0" expanded="true" />
+            <element signature="e#397#398#0" expanded="true" />
+            <element signature="e#432#433#0" expanded="true" />
+            <element signature="e#463#464#0" expanded="true" />
+            <element signature="e#511#512#0" expanded="true" />
+            <element signature="e#551#552#0" expanded="true" />
+            <element signature="e#589#590#0" expanded="true" />
+            <element signature="e#623#624#0" expanded="true" />
+            <element signature="e#677#678#0" expanded="true" />
+            <element signature="e#723#724#0" expanded="true" />
+            <element signature="e#756#757#0" expanded="true" />
+            <element signature="e#785#786#0" expanded="true" />
+            <element signature="e#829#830#0" expanded="true" />
+            <element signature="e#865#866#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -631,10 +798,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/club/logicr/springcore/IoCXmlApplication.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/database.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/club/logicr/springcore/spel/MyDataSource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="-140">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#407#420#0" expanded="true" />
+            <element signature="e#521#534#0" expanded="true" />
+            <element signature="e#636#650#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/club/logicr/springcore/spel/SpelTextApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/club/logicr/springcore/spel/SpelInnerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="83" lean-forward="true" selection-start-line="13" selection-start-column="83" selection-end-line="13" selection-end-column="83" />
         </state>
       </provider>
     </entry>

@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xmlns:contex="http://www.springframework.org/schema/context"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd   http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd   http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
 
 
     <bean id="exampleBean" class="club.logicr.springcore.ExampleBean">
@@ -11,4 +12,20 @@
     </bean>
     <bean id="clientService" class="club.logicr.springcore.ClientService" factory-method="createInstance"/>
     <bean id="defaultServiceLocator" class="club.logicr.springcore.DefaultServiceLocator" factory-bean="clientService"/>
+
+    <!--<bean id="spelInnerBean" class="club.logicr.springcore.spel.SpelInnerBean">-->
+        <!--<property name="classPath" value="#{systemProperties['java.class.path']}"/>-->
+        <!--<property name="javaHome" value="#{systemProperties['java.home']}"/>-->
+        <!--<property name="javaVersion" value="#{systemProperties['java.version']}"/>-->
+        <!--<property name="osName" value="#{systemProperties['os.name']}"/>-->
+    <!--</bean>-->
+
+    <context:component-scan base-package="club.logicr.springcore"/>
+    <!--<util:properties id="properties" location="database.properties"/>-->
+    <!--<bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">-->
+        <!--<property name="fileEncoding" value="UTF-8"/>-->
+        <!--<property name="location" value="classpath:database.properties"/>-->
+    <!--</bean>-->
+    <context:property-placeholder file-encoding="UTF-8" location="classpath:database.properties"/>
+
 </beans>

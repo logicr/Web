@@ -11,13 +11,15 @@ import java.util.Properties;
 public class SpelInnerValue {
     public static void main(String[] args) {
      Properties properties = System.getProperties();
-        for (Object obj  : properties.keySet()) {
-            System.out.println(obj);
+//        for (Object obj  : properties.keySet()) {
+        for (Map.Entry<Object,Object> obj  : properties.entrySet()) {
+            System.out.println(obj.getKey()+"="+obj.getValue());
         }
 
       Map<String,String> env =  System.getenv();
-        for (String s : env.keySet()) {
-            System.out.println(s);
+//        for (String s : env.keySet()) {
+        for (Map.Entry<String,String> s : env.entrySet()) {
+            System.out.println(s.getKey()+"="+s.getValue());
         }
     }
 }

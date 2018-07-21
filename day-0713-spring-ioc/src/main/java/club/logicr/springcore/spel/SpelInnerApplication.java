@@ -11,7 +11,8 @@ public class SpelInnerApplication {
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("application-context.xml");
 //        SpelInnerBean spelInnerBean = (SpelInnerBean) context.getBean("spelInnerBean");
 //        System.out.println(spelInnerBean);
-        MyDataSource myDataSource = (MyDataSource) context.getBean("myDataSource");
+//        MyDataSource myDataSource = (MyDataSource) context.getBean("myDataSource");
+        SubMyData myDataSource = (SubMyData) context.getBean("subMyData");
         System.out.println(myDataSource);
     }
 

@@ -4,6 +4,7 @@ import club.logicr.spring.PayService;
 import club.logicr.spring.component.LogComponent;
 import club.logicr.spring.component.SecurityComponent;
 import club.logicr.spring.component.TimeComponent;
+import com.sun.javafx.image.IntPixelGetter;
 
 /**
  * @author Jan on 2018/7/21.

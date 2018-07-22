@@ -5,6 +5,7 @@ import club.logicr.spring.component.LogComponent;
 import club.logicr.spring.component.SecurityComponent;
 import club.logicr.spring.component.TimeComponent;
 import club.logicr.spring.impl.AlipayService;
+import club.logicr.spring.impl.Bankpay;
 import org.springframework.cglib.proxy.Enhancer;
 
 /**
@@ -14,7 +15,8 @@ import org.springframework.cglib.proxy.Enhancer;
 public class CglibProxy {
     public static void main(String[] args) {
 //        目标对象
-        PayService targat = new AlipayService();
+//        PayService targat = new AlipayService();
+        PayService targat = new Bankpay();
 //      拦截器
         PayServiceCglibProxy interceptor = new PayServiceCglibProxy(
                 targat,

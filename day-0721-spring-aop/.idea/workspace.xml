@@ -16,8 +16,8 @@
       <file leaf-file-name="AopXmlApplication.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/club/logicr/spring/impl/case5/AopXmlApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="418">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -63,6 +63,8 @@
         <option value="$PROJECT_DIR$/src/main/java/club/logicr/spring/impl/case5/PayServiceAspect2.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application-aspect2.xml" />
         <option value="$PROJECT_DIR$/src/main/java/club/logicr/spring/impl/case5/AopXmlApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/club/logicr/spring/impl/case5/Solution.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Solution.java" />
       </list>
     </option>
   </component>
@@ -103,7 +105,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="942" />
     <option name="y" value="51" />
     <option name="width" value="980" />
@@ -146,73 +148,6 @@
               <item name="day-0721-spring-aop" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="day-0721-spring-aop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day-0721-spring-aop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="day-0721-spring-aop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day-0721-spring-aop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-              <item name="case1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="day-0721-spring-aop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day-0721-spring-aop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-              <item name="case2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="day-0721-spring-aop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day-0721-spring-aop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-              <item name="case3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="day-0721-spring-aop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day-0721-spring-aop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-              <item name="case4" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="day-0721-spring-aop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day-0721-spring-aop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-              <item name="case5" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="day-0721-spring-aop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day-0721-spring-aop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -234,6 +169,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="club.logicr.spring.impl.case5" />
       <recent name="club.logicr.spring.impl.case1" />
@@ -254,14 +192,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AopXmlApplication">
+  <component name="RunManager" selected="Application.Solution">
     <configuration name="AopApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="club.logicr.spring.impl.case5.AopApplication" />
       <module name="day-0721-spring-aop" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="club.logicr.spring.impl.case5.*" />
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -272,7 +210,7 @@
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="club.logicr.spring.impl.case5.*" />
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -283,7 +221,7 @@
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="club.logicr.spring.impl.case5.*" />
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -299,13 +237,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="StaticProxy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="club.logicr.spring.impl.case4.StaticProxy" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Solution" />
       <module name="day-0721-spring-aop" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="club.logicr.spring.impl.case4.*" />
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -353,18 +291,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.CglibProxy" />
-      <item itemvalue="Application.StaticProxy" />
       <item itemvalue="Application.AopApplication" />
       <item itemvalue="Application.AopJavaConfigApplication" />
       <item itemvalue="Application.AopXmlApplication" />
+      <item itemvalue="Application.Solution" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution" />
         <item itemvalue="Application.AopXmlApplication" />
         <item itemvalue="Application.AopApplication" />
         <item itemvalue="Application.AopJavaConfigApplication" />
         <item itemvalue="Application.CglibProxy" />
-        <item itemvalue="Application.StaticProxy" />
       </list>
     </recent_temporary>
   </component>
@@ -381,20 +319,20 @@
       <workItem from="1532173926616" duration="12303000" />
       <workItem from="1532188013544" duration="550000" />
       <workItem from="1532216671912" duration="2277000" />
-      <workItem from="1532225376788" duration="5339000" />
+      <workItem from="1532225376788" duration="8813000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20469000" />
+    <option name="totallyTimeSpent" value="23943000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="754" y="41" width="784" height="804" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="bottom" id="TODO" order="12" />
-      <window_info anchor="bottom" id="Messages" order="5" weight="0.32456142" />
+      <window_info anchor="bottom" id="Messages" order="5" weight="0.32163742" />
       <window_info anchor="right" id="Palette&#9;" order="1" />
       <window_info id="Image Layers" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
@@ -402,19 +340,19 @@
       <window_info anchor="right" id="Maven Projects" order="4" weight="0.677686" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="4" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="8" visible="true" weight="0.41520467" />
+      <window_info anchor="bottom" id="Run" order="8" visible="true" weight="0.4369231" />
       <window_info anchor="bottom" id="Spring" order="1" />
       <window_info anchor="bottom" id="Terminal" order="2" />
       <window_info id="Capture Tool" order="1" />
       <window_info id="Designer" order="0" />
-      <window_info content_ui="combo" id="Project" order="4" visible="true" weight="0.230563" />
+      <window_info active="true" content_ui="combo" id="Project" order="4" visible="true" weight="0.9724518" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="9" weight="0.3991228" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.39846155" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
@@ -431,20 +369,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/club/logicr/spring/impl/case3/CglibProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/club/logicr/spring/impl/WeixinPayService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
@@ -865,10 +793,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/club/logicr/spring/impl/case5/AopXmlApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="418">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

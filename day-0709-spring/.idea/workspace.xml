@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5afc2a37-e1e7-4d2f-a24c-e1c6902ff61c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../day-0713-spring-ioc/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/club/logicr/spring/xml/XmlApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/club/logicr/spring/xml/XmlApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/club/logicr/spring/xml/XmlShapeCompute.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/club/logicr/spring/xml/XmlShapeCompute.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spring-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring-config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../day-0713-spring-ioc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day-0713-spring-ioc/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-0713-spring-ioc/day-0713-spring-ioc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../day-0713-spring-ioc/day-0713-spring-ioc.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-0713-spring-ioc/src/main/java/club/logicr/springcore/IoCXmlApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-0713-spring-ioc/src/main/java/club/logicr/springcore/IoCXmlApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-0713-spring-ioc/target/classes/club/logicr/springcore/IoCXmlApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../day-0713-spring-ioc/target/classes/club/logicr/springcore/IoCXmlApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-0721-spring-aop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day-0721-spring-aop/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-0722-niucoder/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day-0722-niucoder/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -41,11 +35,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Circular.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Circular.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/club/logicr/spring/common/imp/Circular.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="132">
               <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Rectangle.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/club/logicr/spring/common/imp/Rectangle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="434">
+              <caret line="47" column="106" selection-start-line="47" selection-start-column="106" selection-end-line="47" selection-end-column="106" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Triangle.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/club/logicr/spring/common/imp/Triangle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="698">
+              <caret line="51" column="96" selection-start-line="51" selection-start-column="96" selection-end-line="51" selection-end-column="96" />
             </state>
           </provider>
         </entry>
@@ -62,7 +74,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="XmlApplication.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="XmlApplication.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/club/logicr/spring/xml/XmlApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="396">
@@ -148,9 +160,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -191,6 +202,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="day-0709-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day-0709-spring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
               <item name="xml" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -204,6 +224,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -325,15 +346,15 @@
       <workItem from="1531616703921" duration="1856000" />
       <workItem from="1531619506977" duration="655000" />
       <workItem from="1531620203371" duration="601000" />
+      <workItem from="1532334567979" duration="60000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17045000" />
+    <option name="totallyTimeSpent" value="17105000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -343,27 +364,27 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.329429" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32503662" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09182306" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17962466" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991228" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32796487" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32796487" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -713,34 +734,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/club/logicr/spring/common/imp/Triangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="51" column="96" selection-start-line="51" selection-start-column="96" selection-end-line="51" selection-end-column="96" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/club/logicr/spring/common/imp/Rectangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="47" column="106" selection-start-line="47" selection-start-column="106" selection-end-line="47" selection-end-column="106" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/club/logicr/spring/common/Shape.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/club/logicr/spring/common/imp/Circular.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
@@ -772,6 +765,34 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/club/logicr/spring/common/Shape.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/club/logicr/spring/common/imp/Triangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="698">
+          <caret line="51" column="96" selection-start-line="51" selection-start-column="96" selection-end-line="51" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/club/logicr/spring/common/imp/Rectangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="47" column="106" selection-start-line="47" selection-start-column="106" selection-end-line="47" selection-end-column="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/club/logicr/spring/common/imp/Circular.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
         </state>
       </provider>
     </entry>

@@ -6,10 +6,12 @@ import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Component;
 
 import java.util.List;
-
 /**
  * @author Jan on 2018/7/23.
  * @version 1.0
+ *
+ * 事务：非常重要
+ * 什么叫事务：要么都成功，要么都失败：一荣俱荣，一损俱损。
  */
 @Component
 public class Memo implements MemoGroups {

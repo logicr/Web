@@ -2,6 +2,8 @@ package club.logicr.springcore.dao.impl;
 
 import club.logicr.springcore.dao.MemoGroupDao;
 import club.logicr.springcore.entity.MemoGroup;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowMapper;
@@ -20,20 +22,35 @@ import java.util.List;
 public class MemoGroupImpl implements MemoGroupDao {
     @Autowired
     private JdbcTemplate jdbcTemplate;
+
+    private final Logger logger = LoggerFactory.getLogger(MemoGroupDao.class);
     public int insetMemoGroup(MemoGroup memoGroup) {
-        return 0;
+        String sql = "insert  into memo_group (name, created_time) VALUES (?,?)";
+        int effect = this.jdbcTemplate.update(sql, memoGroup.getName(), memoGroup.getCreatedTime());
+        logger.debug("Insert into successful {}",effect);
+        return effect;
     }
 
-    public int queryMemoGroupByNameCount(String name) {
-        return 0;
+    public int queryMemoGroupByNameCount(final String name) {
+        String sql = "select count(id) from memo_group where name = ?";
+        int count = jdbcTemplate.queryForObject(sql, new Object[]{name}, Integer.class);
+        logger.debug("queryMemoGroupByNameCount success {}",count);
+        return count;
     }
 
     public int updateMemoGroup(int id, String name) {
-        return 0;
+        String sql = "update memo_group set id = ? where name = ?";
+        int effect = jdbcTemplate.update(sql,id,name);
+        return effect;
+    }
+    public int updateMemoGroupDefault(int id) {
+        String sql = "update memo_group set id = 1 where id = ?";
+        int effect = jdbcTemplate.update(sql,id);
+        return effect;
     }
 
     public List<MemoGroup> queryMemoGroup(int id) {
-        String sql = "select id, name, created_time, modify_time from memo_group where ?";
+        String sql = "select id, name, created_time, modify_time from memo_group where id = ?";
         List<MemoGroup> memoGroups = jdbcTemplate.query(sql, new Object[]{id}, new RowMapper<MemoGroup>() {
             public MemoGroup mapRow(ResultSet resultSet, int i) throws SQLException {
                 MemoGroup memoGroup = new MemoGroup();
@@ -44,14 +61,19 @@ public class MemoGroupImpl implements MemoGroupDao {
                 return memoGroup;
             }
         });
+        logger.debug("query MemoGroupById id = {} restult = {}",id,memoGroups);
         return memoGroups;
     }
 
     public List<MemoGroup> queryMemoGroupByCreatedTime(Date startTime, Date endTime) {
-        return null;
+        String sql = "select id,name,created_time,modify_time from memo_group where created_time between ? and ?";
+        List<MemoGroup> memoGroups = jdbcTemplate.queryForObject(sql, new Object[]{startTime, endTime}, List.class);
+        return memoGroups;
     }
 
     public int deleteMemoGroup(int id) {
-        return 0;
+        String sql = "delete from memo_group where id = ?";
+        int effect = jdbcTemplate.update(sql, id);
+        return effect;
     }
 }

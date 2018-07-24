@@ -63,4 +63,11 @@ public interface MemoGroupDao {
      * @return
      */
     int deleteMemoGroup(int id);
+
+    /**
+     * 修改便签组为默认（1）
+     * @param id
+     * @return
+     */
+    int updateMemoGroupDefault(int id);
 }

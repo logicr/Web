@@ -30,7 +30,6 @@ public class MemoGroupImpl implements MemoGroupDao {
         logger.debug("Insert into successful {}",effect);
         return effect;
     }
-
     public int queryMemoGroupByNameCount(final String name) {
         String sql = "select count(id) from memo_group where name = ?";
         int count = jdbcTemplate.queryForObject(sql, new Object[]{name}, Integer.class);

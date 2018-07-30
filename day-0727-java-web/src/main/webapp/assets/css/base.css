@@ -2,3 +2,7 @@ div{
     border: aqua;
     background: antiquewhite;
 }
+table,th,td
+{
+    border:1px solid navajowhite;
+}

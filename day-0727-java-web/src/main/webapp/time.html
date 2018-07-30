@@ -1,0 +1,79 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>AjaxDemo</title>
+</head>
+<script language="javascript">
+    // 定义一个变量用于存放XMLHttpRequest对象
+    var xmlHttp;
+
+    // 该函数用于创建一个XMLHttpRequest对象
+    function createXMLHttpRequest() {
+        if (window.ActiveXObject) {
+            xmlHttp = new ActiveXObject("Microsoft.XMLHTTP");
+        }
+        else if (window.XMLHttpRequest) {
+            xmlHttp = new XMLHttpRequest();
+        }
+    }
+
+    // 这是响应省份列表的onChange事件的处理方法
+    function updateSelect(){
+        var selected = document.getElementById("slt1").value;//得到省份列表的当前选值
+        //  document.getElementById("slt1").selectedIndex 获得选中项索引值（数字）
+        //  document.getElementById("slt1").value 获得选中项的value值
+        // 创建一个XMLHttpRequest对象
+        createXMLHttpRequest();
+        // 将状态触发器绑定到一个函数
+        xmlHttp.onreadystatechange = processor;
+        // 通过GET方法向指定的URL建立服务器的调用
+        xmlHttp.open("GET", "CreateXML?selected="+selected);
+        // 发送请求
+        xmlHttp.send(null);
+    }
+
+    // 处理从服务器返回的XML文档并更新地市下拉列表
+    function processor() {
+        // 定义一个变量用于存放从服务器返回的响应结果
+        var result;
+
+        // 如果响应完成 并且 返回成功
+        if(xmlHttp.readyState == 4 && xmlHttp.status == 200) {//
+            // 取出服务器返回的XML文档的所有city标签的子节点
+            result = xmlHttp.responseXML.getElementsByTagName("city");
+            // 先清除地市列表的现有内容
+            while (document.getElementById("slt2").options.length>0){
+                document.getElementById("slt2").removeChild(document.getElementById("slt2").childNodes[0]);
+            }
+
+            // 解析XML中的数据并更新地市列表
+            for(var i=0;i<result.length;i++){
+                var option = document.createElement("OPTION");
+                option.text = result[i].getElementsByTagName("cityname")[0].innerHTML;//这就是取出<cityname>中的值
+                option.value = result[i].getElementsByTagName("cityvalue")[0].innerHTM;//这就是取出<cityvalue>中的值
+                document.getElementById("slt2").options.add(option);//为地市列表中添加选项
+            }
+        }
+    }
+
+</script>
+<body>
+<br><br>
+<center>
+    <form name="form1" action="/citydeo" method="POST">
+        请选择省份：
+        <select id="slt1" onChange="updateSelect()">
+            <option value="1">湖南省</option>
+            <option value="2">广东省</option>
+        </select>
+        地市：
+        <select id="slt2">
+            <option value="">请选择地市</option>
+        </select>
+    </form>
+</center>
+</body>
+</html>

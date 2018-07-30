@@ -7,6 +7,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.Console;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.nio.charset.Charset;
 
 /**
  * @author Jan on 2018/7/28.
@@ -46,7 +47,7 @@ public class FormServlet extends HttpServlet {
                 .append("<body>")
                 .append("<h1>")
                 .append("欢迎，")
-                .append(name)
+                .append(new String(name.getBytes("ISO-8859-1"),"UTF-8"))
                 .append("</h1>")
                 .append("</body>")
                 .append("</html>");

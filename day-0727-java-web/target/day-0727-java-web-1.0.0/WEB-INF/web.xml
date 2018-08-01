@@ -4,7 +4,69 @@
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
                       http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
          version="3.1">
-<!--iondex-->
+
+
+
+    <!-- 拦截指定的Servlet -->
+    <!--<servlet-name>LoginServlet</servlet-name>-->
+
+    <!--配置LonginFilter-->
+    <filter>
+        <filter-name>LoginFilter</filter-name>
+        <filter-class>club.logicr.javaWeb.filter.LoginFilter</filter-class>
+        <!--配置排除名单-->
+        <init-param>
+            <param-name>exclude</param-name>
+            <param-value>/login,/index.html,/index,/</param-value>
+        </init-param>
+    </filter>
+    <filter-mapping>
+        <filter-name>LoginFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+
+
+    <!-- 配置Filter -->
+    <filter>
+        <filter-name>LogFilter</filter-name>
+        <filter-class>club.logicr.javaWeb.filter.LogFilter</filter-class>
+        <!-- 配置参数 -->
+        <!--设置前缀 日志前缀-->
+        <init-param>
+            <param-name>prefix</param-name>
+            <param-value>LOG</param-value>
+        </init-param>
+        <!--设置输出路径-->
+        <init-param>
+            <param-name>logFileName</param-name>
+            <param-value>filter_logging.txt</param-value>
+        </init-param>
+    </filter>
+    <filter-mapping>
+        <filter-name>LogFilter</filter-name>
+        <!-- 拦截所有请求 -->
+        <url-pattern>/*</url-pattern>
+        <!-- 拦截指定的Servlet -->
+        <!--<servlet-name>LoginServlet</servlet-name>-->
+    </filter-mapping>
+    <!--配置CounterFilter-->
+    <filter>
+        <filter-name>CounterFilter</filter-name>
+        <filter-class>club.logicr.javaWeb.filter.CounterFilter</filter-class>
+        <!-- 配置参数 -->
+        <init-param>
+            <param-name>counterFileName</param-name>
+            <param-value>filter_counter.properties</param-value>
+        </init-param>
+    </filter>
+    <filter-mapping>
+        <filter-name>CounterFilter</filter-name>
+        <!-- 拦截所有请求 -->
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+
+
+    <!--iondex-->
     <servlet>
         <!--Servlet的内部名称，主要给自己看的-->
         <servlet-name>IndexServlet</servlet-name>
